@@ -1,0 +1,10 @@
+// Array of names
+let names: string[] = ["Alice", "Bob", "Charlie"];
+
+// Intentional error:
+
+console.log(names[3]); 
+
+
+
+if (names.length > 3) {console.log(names[3]);} else {console.log("Index 3 is out of bounds.");}
